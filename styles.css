@@ -90,11 +90,26 @@ form {
         margin-top: 10px;
     }
 
-    & p {
+    & tr td:last-child {
+        text-align: end;
+    }
+
+    & tr td {
         margin: 5px 0;
         color: rgba(255, 255, 255, 0.7);
         font-size: 20px;
         font-weight: bold;
+    }
+
+    & tr#Total td {
+        color: #69fc45;
+        font-size: 30px;
+    }
+
+    & p#mensagem {
+        color: red;
+        font-size: 15px;
+        text-align: center;
     }
 }
 
